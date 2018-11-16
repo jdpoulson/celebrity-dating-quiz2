@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="panel panel-heading">Celebrity Dating Quiz</h1>
+
+      <p class="panel panel-body">Please fill out this form so we can decide who you want to date with:</p>
+
+      <form id="celebrity">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <label for="eye-color">Eye Color</label>
+        <select id="eye-color">
+          <option value="blue">Blue</option>
+          <option value="brown">Brown</option>
+        </select>
+        <button type="submit" class="btn">Calculate my celebrity</button>
+      </form>
+
+      <div id="quote">
+        <div class="anna-ferris">
+          <p class="panel panel-body">You should date with Anna Ferris.</p>
+        </div>
+        <div class="wanda-sykes">
+          <p class="panel panel-body">You should date with Wanda Sykes.</p>
+        </div>
+        <div class="jessica-simpson">
+          <p class="panel panel-body">You should date with Jessica Simpson.</p>
+        </div>
+        <div class="no-date">
+          <p class="panel panel-body">Sorry, you are too young to date.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
